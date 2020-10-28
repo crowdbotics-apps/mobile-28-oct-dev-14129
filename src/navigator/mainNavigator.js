@@ -9,7 +9,6 @@ import CopyOfBlankScreen013300Navigator from '../features/CopyOfBlankScreen01330
 import CopyOfBlankScreen013299Navigator from '../features/CopyOfBlankScreen013299/navigator';
 import CopyOfBlankScreen013298Navigator from '../features/CopyOfBlankScreen013298/navigator';
 import CopyOfBlankScreen013297Navigator from '../features/CopyOfBlankScreen013297/navigator';
-import CopyOfBlankScreen013296Navigator from '../features/CopyOfBlankScreen013296/navigator';
 import BlankScreen013290Navigator from '../features/BlankScreen013290/navigator';
 
 /**
@@ -23,7 +22,6 @@ CopyOfBlankScreen013300: { screen: CopyOfBlankScreen013300Navigator },
 CopyOfBlankScreen013299: { screen: CopyOfBlankScreen013299Navigator },
 CopyOfBlankScreen013298: { screen: CopyOfBlankScreen013298Navigator },
 CopyOfBlankScreen013297: { screen: CopyOfBlankScreen013297Navigator },
-CopyOfBlankScreen013296: { screen: CopyOfBlankScreen013296Navigator },
 BlankScreen013290: { screen: BlankScreen013290Navigator },
 
     /** new navigators can be added here */
