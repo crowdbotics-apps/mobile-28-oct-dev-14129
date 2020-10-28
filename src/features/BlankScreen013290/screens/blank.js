@@ -23,7 +23,11 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_4: "", DateTimePicker_5: new Date("") }
+  state = {
+    TextInput_4: "",
+    DateTimePicker_5: new Date(""),
+    DateTimePicker_6: new Date("")
+  }
 
   render = () => (
     <View>
@@ -35,10 +39,16 @@ export default class Blank extends React.Component {
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
       />
       <DateTimePicker
-        showIcon={false}
         date={this.state.DateTimePicker_5}
         onDateChange={selectedDate =>
           this.setState({ DateTimePicker_5: selectedDate })
+        }
+      />
+      <DateTimePicker
+        showIcon={false}
+        date={this.state.DateTimePicker_6}
+        onDateChange={selectedDate =>
+          this.setState({ DateTimePicker_6: selectedDate })
         }
       />
     </View>
@@ -50,9 +60,16 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Button_2: {},
   Text_3: {},
   TextInput_4: {},
-  DateTimePicker_5: {}
+  DateTimePicker_5: {},
+  View_1: {},
+  Button_2: {},
+  Text_3: {},
+  TextInput_4: {},
+  DateTimePicker_5: {},
+  DateTimePicker_6: {}
 })
