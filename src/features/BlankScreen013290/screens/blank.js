@@ -39,18 +39,19 @@ export default class Blank extends React.Component {
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
       />
       <DateTimePicker
+        showIcon={false}
         date={this.state.DateTimePicker_5}
         onDateChange={selectedDate =>
           this.setState({ DateTimePicker_5: selectedDate })
         }
       />
       <DateTimePicker
-        showIcon={false}
         date={this.state.DateTimePicker_6}
         onDateChange={selectedDate =>
           this.setState({ DateTimePicker_6: selectedDate })
         }
       />
+      <Slider value={50} minimumValue={0} maximumValue={100} />
     </View>
   )
 }
@@ -71,5 +72,12 @@ const styles = StyleSheet.create({
   Text_3: {},
   TextInput_4: {},
   DateTimePicker_5: {},
-  DateTimePicker_6: {}
+  DateTimePicker_6: {},
+  View_1: {},
+  Button_2: {},
+  Text_3: {},
+  TextInput_4: {},
+  DateTimePicker_5: {},
+  DateTimePicker_6: {},
+  Slider_7: {}
 })
